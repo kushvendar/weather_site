@@ -1,6 +1,14 @@
 import './App.css'
-import search from './images/search.png'
+import clear from './images/clear.png'
 import cloud from './images/clouds.png'
+import drizzle from './images/drizzle.png'
+import humidity from './images/humidity.png'
+import mist from './images/mist.png'
+import rain from './images/rain.png'
+import search from './images/search.png'
+import snow from './images/snow'
+import clear from './images/clear.png'
+
 
 function App() {
   return (
