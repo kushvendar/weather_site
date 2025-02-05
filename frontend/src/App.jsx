@@ -18,6 +18,7 @@ function App() {
         <div><img src={search} alt="search bar" /></div>
       </div>
       <div className=''><img src={cloud} alt="cloud" /></div>
+      <div>pm level </div>
       <div className=''>temp</div>
       <div className=''> place</div>
       <div className=''>humidity and wind speed</div>
