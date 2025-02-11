@@ -17,8 +17,8 @@ function App() {
         <div className='flex flex-row'><input type="text" placeholder='enter city name' />
         <img src={search} alt="search bar" /> 
         </div> 
-      <div className=''>temp</div>
-      <div className=''> place</div>
+      <div className='bg-red-100'>temp</div>
+      <div className='bg-blue-300'> place</div>
       <div className=''>humidity and wind speed</div>
     </div>
         </div>
