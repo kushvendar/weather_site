@@ -4,7 +4,7 @@ import './App.css'
 // import drizzle from './images/drizzle.png'
 // import humidity from './images/humidity.png'
 // import mist from './images/mist.png'
-// import rain from './images/rain.png'
+import rain from './images/rain.png'
 import search from './images/search.png'
 // import snow from './images/snow'
 // import clear from './images/clear.png'
@@ -12,16 +12,18 @@ import search from './images/search.png'
 
 function App() {
   return (
-        <div className='bg-black flex flex-col '>
-          <div className= 'flex flex-col bg-gradient-to-br from-[#00feba] to-[#5b548a] h-[470px] max-w-90 m-[20px] p-[30px] rounded-3xl'>
-        <div className='flex flex-row'><input type="text" placeholder='enter city name' />
-        <img src={search} alt="search bar" /> 
+          <div className= 'bg-gradient-to-br from-[#00feba] to-[#5b548a] w-9/10 max-w-[470px] mt-[100px] ml-auto mr-auto rounded-[20px] pl-[40px] pr-[35px] text-center text-white'>
+        <div className='flex w-full items-center justify-between'>
+           <div className='bg-[#ebfffc] outline-none text-[#555] pt-[13px] pb-[13px] pr-[25px] pl-[25px] h-[60px] rounded-[30px] flex-[1] mr-[16px] text-[18px]'> <input type="text" placeholder='enter city name' /></div>
+           <div className='bg-[#ebfffc] border-none outline-none rounded-1/2 rounded-[50%] w-[60px] h-[60px] cursor-pointer'>
+           <button><div className='w-[16px]'>
+            <img src={search} alt="search bar"/>
+            </div>
+            </button>
+           </div>
         </div> 
-      <div className='bg-red-100'>temp</div>
-      <div className='bg-blue-300'> place</div>
-      <div className=''>humidity and wind speed</div>
+        <div><img src={rain} alt="" /></div>
     </div>
-        </div>
   )
 }
 
