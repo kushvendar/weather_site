@@ -45,7 +45,7 @@ npm start
 
 6. **Build for production:**  
 ```bash  
-npm run build  
+npm run dev  
 ```  
 
 ## 📸 Screenshots  
@@ -59,12 +59,12 @@ weather-app/
 ├── public/  
 ├── src/  
 │   ├── components/   # Reusable components  
-│   ├── assets/       # Images and icons  
-│   ├── App.js        # Main app component  
-│   ├── index.js      # React DOM rendering  
-│   ├── styles.css    # Tailwind CSS styles  
+│   ├── images/       # Images and icons  
+│   ├── App.jsx       # Main app component  
+│   ├── index.jsx    # React DOM rendering  
+│   ├── App.css    # Tailwind CSS styles  
 │   └── ...  
-├── .env              # Environment variables  
+├── .env              # Environment variables & API Key
 ├── package.json  
 └── README.md  
 ```  

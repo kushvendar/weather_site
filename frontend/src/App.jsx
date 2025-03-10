@@ -65,7 +65,7 @@ function App() {
   },[])
 
   return (
-         <div className='box-border'>
+         <div className='box-border overflow-hidden'>
            <div className= 'bg-gradient-to-br from-[#00feba] to-[#5b548a] w-9/10 max-w-[470px] mt-[100px] ml-auto mr-auto rounded-[20px] pt-[40px] pb-[40px] pl-[35px] pr-[35px] text-center text-white'>
            <div className='w-full flex items-center justify-between'>
             <input className='bg-[#ebfffc] text-[#555] pt-[10px] pb-[10px] pr-[25px] pl-[25px] h-[60px] rounded-[30px] flex-[1] mr-[16px] text-[18px]' ref={inputRef} type="text" placeholder='enter city name'/>
